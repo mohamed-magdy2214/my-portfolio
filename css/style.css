@@ -115,6 +115,7 @@ header .social h6 {
 
 }
 header .button {
+    width: 40%  !important;
     background: var(--bg-color-1);
     box-shadow: var(--shadow1);
     color: #c4cfde;
