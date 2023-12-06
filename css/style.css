@@ -210,7 +210,14 @@ header .image {
 }
 
 
-
+#scroller {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color);
+    height: 2px;
+    z-index: 999999;
+}
 
 
 

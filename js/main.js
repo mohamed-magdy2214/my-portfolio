@@ -31,7 +31,6 @@ $("#slideUp").click(function () {
   });
 
 
-
 // link scroll to section
 $('.nav-link').click( function(e) {
 
@@ -40,6 +39,19 @@ $('.nav-link').click( function(e) {
 
   $('body , html').animate({scrollTop: secOffset - 50}, 1000);
   
+})
+
+
+//  horizontal scroller
+let scroller = document.getElementById('scroller');
+let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+
+window.addEventListener('scroll', function(){
+
+  let scrollTop = this.document.documentElement.scrollTop;
+
+  scroller.style.width = `${(scrollTop / height) * 100}%`
 })
 
 
