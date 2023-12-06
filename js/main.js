@@ -8,6 +8,7 @@ $('.button').click(function(){
 
 
 // slideUp button
+
 $(window).on("scroll", function () {
   let services = $("#services").offset().top;
   let wScroll = $(window).scrollTop();
@@ -21,6 +22,8 @@ $(window).on("scroll", function () {
     $("#slideUp").fadeOut(500);
   }
 });
+
+
 
 $("#slideUp").click(function () {
 
@@ -42,6 +45,34 @@ $('.nav-link').click( function(e) {
 })
 
 
+
+//   animation of sections
+
+$(window).on("scroll", function () {
+  let services = $("#services").offset().top;
+  let portfolio = $("#projects").offset().top;
+  let wScroll = $(window).scrollTop();
+
+  if (wScroll >= services - 600) {
+
+    $('#services .row').addClass([' animate__animated', 'animate__fadeInUp']);
+    
+  } 
+});
+
+$(window).on("scroll", function () {
+  let portfolio = $("#projects").offset().top;
+  let wScroll = $(window).scrollTop();
+
+  if (wScroll >= portfolio - 600) {
+
+    $('#projects .row').addClass([' animate__animated', 'animate__fadeInUp']);
+    
+  } 
+});
+
+
+
 //  horizontal scroller
 let scroller = document.getElementById('scroller');
 let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -53,6 +84,10 @@ window.addEventListener('scroll', function(){
 
   scroller.style.width = `${(scrollTop / height) * 100}%`
 })
+
+
+
+
 
 
 
