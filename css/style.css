@@ -54,7 +54,7 @@ body {
     box-shadow: var(--shadow2);
 }
 .main-padding {
-    padding: 25px;
+    padding: 18px;
 }
 .head {
     font-weight: 700;
@@ -138,6 +138,28 @@ header .image {
 }
 .portfolio .description p {
     font-size: 14px;
+}
+.portfolio .row .col-md-3 {
+    transition: opacity var(--main-transition);
+}
+.portfolio ul {
+    background: var(--bg-color-1);
+    box-shadow: var(--shadow1);
+}
+.portfolio ul li {
+    color: #c4cfde;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 24px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all var(--main-transition);
+}
+.portfolio ul .active {
+    color: var(--main-color)
+}
+.portfolio ul li:hover {
+    color: var(--main-color);
 }
 .card-item .image img {
     transition: all 0.6s;
