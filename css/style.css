@@ -140,9 +140,6 @@ header .image {
 .portfolio .description p {
   font-size: 14px;
 }
-.portfolio .row .col-md-3 {
-  transition: opacity var(--main-transition);
-}
 .portfolio ul {
   background: var(--bg-color-1);
   box-shadow: var(--shadow1);

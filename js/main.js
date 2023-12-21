@@ -76,14 +76,12 @@ projectsLinks.forEach((projectLink) => {
       // disappear all carts and display only one which belong to specific category
       carts.forEach((cart) => {
         cart.style.display = "none";
-        cart.style.opacity = "0";
 
         if (cart.getAttribute("id") === eventInfo.target.getAttribute("id")) {
           cart.style.display = "block";
           cart.style.opacity = "1";
         } else if (eventInfo.target.getAttribute("id") === "all") {
           cart.style.display = "block";
-          cart.style.opacity = "1";
         }
       });
     });
