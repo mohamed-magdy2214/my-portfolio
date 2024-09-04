@@ -1,0 +1,136 @@
+@media screen and (max-width:600px) {
+    
+    header .container {
+        padding-top:  0px !important;
+        text-align: center !important;
+    }
+    header .container p {
+        padding: 0 !important;
+    }
+    header .social {
+        width: 100% !important;
+        display: block !important;
+    }
+    header .social-icons {
+        margin-bottom: 30px;
+    }
+    header .contact {
+        width: 100% !important;
+    }
+    header .item {
+        width: 80% !important;
+        padding: 0 !important;
+        margin-bottom: 30px;
+    }
+    header .image {
+        transform: translate(0px, 0px);
+    }
+    .skills .skill {
+        width: calc((100% /3) - 10px);
+        margin-bottom: 10px;
+    }
+    .portfolio ul li {
+        margin: 0;
+        padding: 5px 18px;
+    }
+    .mid-div {
+        width: 100% !important;
+    }
+    .form {
+        width: 100% !important;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    header .container {
+        padding-top:  0px !important;
+        text-align: center !important;
+    }
+    header .container p {
+        padding: 0 !important;
+    }
+    header .social {
+        width: 100% !important;
+    }
+    header .contact {
+        width: 100% !important;
+    }
+    header .item {
+        width: 80% !important;
+    }
+    .skills .skill {
+        width: calc((100% /3) - 10px);
+        margin-bottom: 10px;
+    }
+    .portfolio .links {
+        width: 100% !important;
+    }
+    .mid-div {
+        width: 100% !important;
+    }
+    .form {
+        width: 100% !important;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    header .container {
+        padding-top:  0px !important;
+        text-align: center !important;
+    }
+    header .container p {
+        padding: 0 !important;
+    }
+    header .social {
+        width: 100% !important;
+    }
+    header .contact {
+        width: 100% !important;
+    }
+    header .item {
+        width: 90% !important;
+    }
+    
+    .services .col-md-4 {
+        width: 50% !important;
+    }
+    .portfolio .col-md-4 {
+        width: 50% !important;
+    }
+    .portfolio .links {
+        width: 80% !important;
+    }
+    .skills .skill {
+        width: calc((100% /3) - 10px);
+        margin-bottom: 10px;
+
+    }
+    .mid-div {
+        width: 100% !important;
+    }
+    .form {
+        width: 100% !important;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+    header .container h1 {
+        font-size: 4.5rem;
+    }
+    header .item {
+        width: 75% !important;
+    }
+}
+@media screen and (min-width:1200px) {
+    header .container h1 {
+        font-size: 4.5rem;
+    }
+}
+@media screen and (min-width:1400px) {
+    header .container h1 {
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1300px){
+    header .item {
+        width: 70% !important;
+    }
+}
